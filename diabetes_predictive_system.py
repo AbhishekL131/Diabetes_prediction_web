@@ -9,7 +9,7 @@ Created on Fri May 31 08:44:20 2024
 import numpy as np
 import pickle
 
-loaded_model = pickle.load(open('/Users/abhisheklondhe/ML_Projects/diabetes_model.sav','rb'))
+loaded_model = pickle.load(open('diabetes_model.sav','rb'))
 
 # predictive system
 
