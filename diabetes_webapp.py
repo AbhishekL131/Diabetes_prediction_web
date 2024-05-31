@@ -9,6 +9,7 @@ Created on Fri May 31 08:48:56 2024
 import numpy as np
 import pickle
 import streamlit as st
+import sklearn
 
 loaded_model = pickle.load(open('diabetes_model.sav','rb'))
 
