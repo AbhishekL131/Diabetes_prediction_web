@@ -10,7 +10,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-loaded_model = pickle.load(open('/Users/abhisheklondhe/ML_Projects/diabetes_model.sav','rb'))
+loaded_model = pickle.load(open('diabetes_model.sav','rb'))
 
 
 def diabetes_prediction(input_data):
